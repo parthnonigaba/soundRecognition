@@ -11,26 +11,30 @@
   </head>
 
   <body>
-    <div tag = "col-xs-12 header_div text-center">
-      <h2>Sound Controlled Animals</h2>
-      <p>Note: Make differnt sounds like a dog barking, a cat meowing, a duck quacking, or a cricket chirping.</p>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Sound controlled Aliens</h2>     
+      <p>Note: Play different animal sounds like a dog barking or a cat meowing</p>     
     </div>
-    <div class = "main_div">
+    <div class="main_div">
       <center>
+      <br>
+      <button class="btn btn-warning" onclick="startClassification();"> START </button>
+      <h3 id="result_label">I can hear - </h3>
+      <h4 id="result_confidence">Accuracy - </h4>
         <br>
-        <button class = "btn btn-warning" onclick = "startClassifacation();">Start</button>
-        <h3 id = "result_label">I can hear: </h3>
-        <h4 id = "result_confidence">Accuracy: </h4>
-        <br>
-        <img src = "listen.gif" id = "listeningImage" width = "300" height = "300">
+        <img src="meow.gif" id="Dog" width="300" height="300">
+        <img src="bark.gif" id="Cat" width="300" height="300">
+        
       </center>
-    </div>
-    <div class = "copy_right_footer">
-      Dobla Pie
-    </div>
+      </div>
+      <div class="copy_right_footer">
+        Developed by - WhitehatJr Team
+      </div>
 <script src="main.js"></script>
   </body>
 </html>
+
+
 
 
 
